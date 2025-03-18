@@ -1,5 +1,7 @@
 # Sobre el Proyecto de Predicción de Calidad del Aire
 
+**Por: Juan Guillermo Escobar Baez**
+
 A continuación, se presentarán los puntos más relevantes para la investigación que involucra este proyecto: 
 
 En primer lugar, se definió como objetivo general lo siguiente: “Desarrollar una solución interactiva para la predicción de la calidad del aire, por medio de modelos de aprendizaje automático (Machine Learning)”.
