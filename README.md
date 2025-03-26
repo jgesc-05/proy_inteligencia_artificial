@@ -1,10 +1,10 @@
-# Sobre el Proyecto de Predicción de Calidad del Aire
+# Predicción de calidad aérea, basada en valores de Índice de Calidad Aérea de contaminantes 
 
 **Por: Juan Guillermo Escobar Baez**
 
 A continuación, se presentarán los puntos más relevantes para la investigación que involucra este proyecto: 
 
-En primer lugar, se definió como objetivo general lo siguiente: “Desarrollar una solución interactiva para la predicción de la calidad del aire, por medio de modelos de aprendizaje automático (Machine Learning)”.
+Como objetivo general, se definió lo siguiente: "Desarrollar una solución interactiva para la predicción de la calidad del aire, a partir del AQI del PM10 y PM2.5; se realizará por medio de modelos de aprendizaje automático (Machine Learning), tanto supervisados como no supervisados".
 
 Además, se definieron los alcances (lo que contendrá el proyecto) y lo que no contendrá:
 
@@ -12,7 +12,7 @@ Además, se definieron los alcances (lo que contendrá el proyecto) y lo que no 
 - Realizar el EDA (análisis exploratorio de datos) para comprender los datos (distribución, features, correlaciones, tendencias, etcétera).
 - Hacer el respectivo preprocesamiento de los datos (imputación de outliers (datos anómalos), eliminación de features ("características") innecesarios, etcétera).
 - Entrenamiento de datos con múltiples modelos de aprendizaje automático (Machine Learning).
-- Evaluación de diversas métricas relevantes (RMSE, MAE, Accuracy, etcétera) para determinar el modelo más efectivo.
+- Evaluación de diversas métricas relevantes (RMSE, MAE, Accuracy, etcétera) para determinar el modelo más efectivo (según el tipo de label).
 - Desarrollo de una solución interactiva: 1. Aplicación web simple en Streamlit (Python), 2. Aplicación móvil en Jetpack Compose (Android).
 
 
@@ -25,9 +25,9 @@ También se realizó la definición del problema, identificando por qué es impo
 
 Es sumamente importante la predicción de la calidad del aire; esto puede afectar no solamente a las personas sensibles a la contaminación, sino también a los gobiernos que deseen plantear políticas ambientales. Sin embargo, la predicción del AQI (Air Quality Index) no es tan buena en algunos casos; esto debido a la poca disponibilidad de modelos de aprendizaje automático efectivos para hacer esto. Se busca, pues, desarrollar una solución (por medio del Machine Learning) para una mejor toma de decisiones.
 
-Finalmente, se definieron los requerimientos de negocio/usuario, que sientan las bases para otorgar un producto de calidad y confiabilidad a los clientes; estos fueron los siguientes:
+Finalmente, los requerimientos de negocio/usuario, que sientan las bases para otorgar un producto de calidad y confiabilidad a los clientes, fueron los siguientes:
 
 - El modelo debe tener una accuracy (exactitud), por lo menos, mayor al 70 %.
 - Las predicciones deben ser fácilmente identificables por el usuario (uso de mapas, recomendaciones según la predicción de la calidad aérea, etcétera).
-- Se debe predecir el AQI o clasificar la calidad del aire por categorías (bueno, moderado, malo, etcétera).
+- Se debe predecir el AQI (modelos supervisados de regresión) o clasificar la calidad del aire por categorías (bueno, moderado, malo, etcétera) (modelos supervisados de clasificación).
 
